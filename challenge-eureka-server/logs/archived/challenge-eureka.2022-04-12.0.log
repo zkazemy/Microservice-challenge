@@ -1,0 +1,416 @@
+12-04-2022 09:38:59.710 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 21444 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+12-04-2022 09:38:59.726 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12-04-2022 09:39:01.023 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+12-04-2022 09:39:01.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+12-04-2022 09:39:01.497 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:39:01.497 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-04-2022 09:39:01.497 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+12-04-2022 09:39:01.688 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-04-2022 09:39:01.688 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1918 ms
+12-04-2022 09:39:02.266 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+12-04-2022 09:39:02.344 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:39:02.344 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:39:02.516 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:39:02.516 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:39:02.990 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:39:03.854 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:39:03.870 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:39:03.870 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:39:03.870 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:39:03.932 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:39:03.995 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:39:04.057 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:39:05.201 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:39:06.315 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:39:06.331 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:39:06.331 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:39:06.331 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:39:06.393 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:39:06.456 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:39:06.534 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:39:07.687 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:39:07.687 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+12-04-2022 09:39:07.822 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12-04-2022 09:39:07.869 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-04-2022 09:39:07.956 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-04-2022 09:39:07.956 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+12-04-2022 09:39:07.973 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649740147973 with initial instances count: 0
+12-04-2022 09:39:08.060 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+12-04-2022 09:39:08.068 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+12-04-2022 09:39:08.323 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:39:08.323 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:39:08.336 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:39:08.336 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:39:08.500 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+12-04-2022 09:39:08.506 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+12-04-2022 09:39:08.506 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+12-04-2022 09:39:08.527 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+12-04-2022 09:39:08.631 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+12-04-2022 09:39:08.631 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:39:08.631 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+12-04-2022 09:39:08.647 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+12-04-2022 09:39:08.647 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+12-04-2022 09:39:08.647 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+12-04-2022 09:39:08.647 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+12-04-2022 09:39:08.647 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+12-04-2022 09:39:08.655 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8761 is already in use
+12-04-2022 09:39:08.655 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+12-04-2022 09:39:08.663 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+12-04-2022 09:39:08.679 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+12-04-2022 09:39:08.679 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:39:08.687 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+12-04-2022 09:39:08.687 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+12-04-2022 09:39:08.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:39:08.687 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+12-04-2022 09:39:08.695 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:39:08.695 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:39:08.719 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12-04-2022 09:39:08.735 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8761 or configure this application to listen on another port.
+
+12-04-2022 09:43:19.899 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 13544 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+12-04-2022 09:43:19.899 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12-04-2022 09:43:20.871 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+12-04-2022 09:43:21.852 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+12-04-2022 09:43:21.867 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:43:21.867 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-04-2022 09:43:21.867 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+12-04-2022 09:43:22.090 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-04-2022 09:43:22.090 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2144 ms
+12-04-2022 09:43:23.046 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+12-04-2022 09:43:23.148 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:43:23.148 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:43:23.388 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:43:23.388 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:43:24.186 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:43:24.847 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:43:24.855 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:43:24.855 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:43:24.863 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:43:24.895 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:43:24.935 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:43:25.053 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:43:26.080 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:43:26.878 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:43:26.887 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:43:26.893 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:43:26.897 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:43:26.936 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:43:26.978 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:43:27.092 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:43:28.146 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:43:28.148 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+12-04-2022 09:43:28.200 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12-04-2022 09:43:28.216 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-04-2022 09:43:28.247 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-04-2022 09:43:28.247 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+12-04-2022 09:43:28.263 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649740408247 with initial instances count: 0
+12-04-2022 09:43:28.295 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+12-04-2022 09:43:28.297 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+12-04-2022 09:43:28.552 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:43:28.552 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:43:28.552 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:43:28.552 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:43:28.692 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+12-04-2022 09:43:28.700 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+12-04-2022 09:43:28.700 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+12-04-2022 09:43:28.708 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+12-04-2022 09:43:28.812 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+12-04-2022 09:43:28.820 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:43:28.820 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+12-04-2022 09:43:28.844 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+12-04-2022 09:43:28.844 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8761 is already in use
+12-04-2022 09:43:28.844 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+12-04-2022 09:43:28.844 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+12-04-2022 09:43:28.844 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+12-04-2022 09:43:28.844 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+12-04-2022 09:43:28.844 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+12-04-2022 09:43:28.868 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+12-04-2022 09:43:28.884 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+12-04-2022 09:43:28.892 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:43:28.892 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+12-04-2022 09:43:28.892 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+12-04-2022 09:43:28.900 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:43:28.900 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+12-04-2022 09:43:28.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:43:28.916 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:43:28.932 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12-04-2022 09:43:28.948 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8761 or configure this application to listen on another port.
+
+12-04-2022 09:45:11.663 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 11188 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+12-04-2022 09:45:11.663 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12-04-2022 09:45:12.281 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+12-04-2022 09:45:12.427 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+12-04-2022 09:45:12.442 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:45:12.442 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-04-2022 09:45:12.442 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+12-04-2022 09:45:12.565 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-04-2022 09:45:12.565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+12-04-2022 09:45:12.912 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+12-04-2022 09:45:12.959 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:45:12.959 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:45:13.044 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:45:13.044 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:45:13.395 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:45:13.965 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:45:13.975 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:45:13.977 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:45:13.977 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:45:13.994 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:45:14.026 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:45:14.093 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:45:15.128 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:45:15.761 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:45:15.769 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:45:15.769 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:45:15.777 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:45:15.801 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:45:15.841 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:45:15.914 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:45:16.951 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:45:16.967 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+12-04-2022 09:45:17.031 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12-04-2022 09:45:17.039 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-04-2022 09:45:17.063 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-04-2022 09:45:17.063 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+12-04-2022 09:45:17.063 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649740517063 with initial instances count: 0
+12-04-2022 09:45:17.087 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+12-04-2022 09:45:17.087 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+12-04-2022 09:45:17.199 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:45:17.199 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:45:17.199 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:45:17.199 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:45:17.271 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+12-04-2022 09:45:17.279 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+12-04-2022 09:45:17.279 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+12-04-2022 09:45:17.287 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+12-04-2022 09:45:17.335 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+12-04-2022 09:45:17.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:45:17.335 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+12-04-2022 09:45:17.343 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+12-04-2022 09:45:17.351 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+12-04-2022 09:45:17.351 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+12-04-2022 09:45:17.351 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+12-04-2022 09:45:17.351 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+12-04-2022 09:45:17.351 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8761 is already in use
+12-04-2022 09:45:17.351 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+12-04-2022 09:45:17.359 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+12-04-2022 09:45:17.367 [main] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+12-04-2022 09:45:17.367 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:45:17.375 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+12-04-2022 09:45:17.375 [main] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+12-04-2022 09:45:17.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:45:17.375 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+12-04-2022 09:45:17.383 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:45:17.383 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:45:17.391 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12-04-2022 09:45:17.399 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8761 or configure this application to listen on another port.
+
+12-04-2022 09:50:06.078 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 18592 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+12-04-2022 09:50:06.078 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12-04-2022 09:50:07.281 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+12-04-2022 09:50:07.484 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+12-04-2022 09:50:07.500 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:50:07.500 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-04-2022 09:50:07.500 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+12-04-2022 09:50:07.656 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-04-2022 09:50:07.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1531 ms
+12-04-2022 09:50:08.109 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+12-04-2022 09:50:08.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:50:08.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:50:08.281 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:50:08.281 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:50:08.635 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:50:09.104 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:50:09.104 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:09.104 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:09.104 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:50:09.135 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:50:09.167 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:50:09.245 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:50:10.276 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:50:10.838 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:50:10.838 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:10.838 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:10.838 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:50:10.870 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:50:10.895 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:50:10.974 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:50:12.005 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:50:12.005 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+12-04-2022 09:50:12.052 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12-04-2022 09:50:12.067 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-04-2022 09:50:12.099 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-04-2022 09:50:12.099 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+12-04-2022 09:50:12.099 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649740812099 with initial instances count: 0
+12-04-2022 09:50:12.130 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+12-04-2022 09:50:12.130 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+12-04-2022 09:50:12.333 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:50:12.333 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:50:12.333 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:50:12.333 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:50:12.411 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+12-04-2022 09:50:12.411 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+12-04-2022 09:50:12.411 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+12-04-2022 09:50:12.427 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+12-04-2022 09:50:12.474 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+12-04-2022 09:50:12.474 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:50:12.474 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+12-04-2022 09:50:12.489 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+12-04-2022 09:50:12.489 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+12-04-2022 09:50:12.489 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+12-04-2022 09:50:12.489 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+12-04-2022 09:50:12.489 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+12-04-2022 09:50:12.489 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+12-04-2022 09:50:12.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+12-04-2022 09:50:12.505 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+12-04-2022 09:50:12.880 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:50:12.880 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:12.880 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:50:12.895 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:50:12.927 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:50:12.958 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:50:13.036 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:50:14.062 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:50:14.062 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 10.67 seconds (JVM running for 12.788)
+12-04-2022 09:50:14.374 [RMI TCP Connection(1)-192.168.124.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12-04-2022 09:50:14.374 [RMI TCP Connection(1)-192.168.124.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+12-04-2022 09:50:14.374 [RMI TCP Connection(1)-192.168.124.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+12-04-2022 09:50:36.890 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+12-04-2022 09:50:36.921 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 (replication=false)
+12-04-2022 09:50:37.452 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=true)
+12-04-2022 09:50:37.452 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 (replication=true)
+12-04-2022 09:50:49.763 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+12-04-2022 09:50:50.286 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+12-04-2022 09:51:12.492 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+12-04-2022 09:52:12.498 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+12-04-2022 09:53:12.499 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+12-04-2022 09:54:12.509 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+12-04-2022 09:55:12.515 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+12-04-2022 09:55:53.365 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+12-04-2022 09:55:53.381 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 (replication=false)
+12-04-2022 09:55:53.877 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=true)
+12-04-2022 09:55:53.885 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 (replication=true)
+12-04-2022 09:56:12.522 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+12-04-2022 09:57:08.037 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8282 with status UP (replication=false)
+12-04-2022 09:57:08.559 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8282 with status UP (replication=true)
+12-04-2022 09:57:12.525 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+12-04-2022 09:57:21.783 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 18088 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+12-04-2022 09:57:21.783 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12-04-2022 09:57:22.455 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+12-04-2022 09:57:22.611 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+12-04-2022 09:57:22.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:57:22.611 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-04-2022 09:57:22.611 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+12-04-2022 09:57:22.736 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-04-2022 09:57:22.736 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 922 ms
+12-04-2022 09:57:23.080 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+12-04-2022 09:57:23.127 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:57:23.127 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:57:23.221 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:57:23.221 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:57:23.538 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+12-04-2022 09:57:24.033 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:57:24.049 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:24.049 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:24.049 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:57:24.080 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:57:24.143 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:57:24.221 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:57:25.252 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:57:25.799 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:57:25.799 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:25.799 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:25.799 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:57:25.846 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:57:25.877 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:57:25.972 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:57:27.034 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:57:27.034 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+12-04-2022 09:57:27.081 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12-04-2022 09:57:27.081 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-04-2022 09:57:27.112 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-04-2022 09:57:27.112 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+12-04-2022 09:57:27.112 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649741247112 with initial instances count: 0
+12-04-2022 09:57:27.143 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+12-04-2022 09:57:27.143 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+12-04-2022 09:57:27.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-04-2022 09:57:27.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-04-2022 09:57:27.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-04-2022 09:57:27.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-04-2022 09:57:27.347 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+12-04-2022 09:57:27.347 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+12-04-2022 09:57:27.347 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+12-04-2022 09:57:27.362 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+12-04-2022 09:57:27.409 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+12-04-2022 09:57:27.409 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+12-04-2022 09:57:27.409 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+12-04-2022 09:57:27.425 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+12-04-2022 09:57:27.425 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+12-04-2022 09:57:27.425 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+12-04-2022 09:57:27.425 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+12-04-2022 09:57:27.425 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+12-04-2022 09:57:27.425 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+12-04-2022 09:57:27.425 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+12-04-2022 09:57:27.425 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+12-04-2022 09:57:27.800 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+12-04-2022 09:57:27.800 [http-nio-8761-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12-04-2022 09:57:27.800 [http-nio-8761-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+12-04-2022 09:57:27.800 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:27.800 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+12-04-2022 09:57:27.800 [http-nio-8761-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+12-04-2022 09:57:27.800 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+12-04-2022 09:57:27.831 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry.renew - DS: Registry: lease doesn't exist, registering resource: CHALLENGE - localhost:challenge:8585
+12-04-2022 09:57:27.831 [http-nio-8761-exec-1] WARN  c.n.e.resources.InstanceResource.renewLease - Not Found (Renew): CHALLENGE - localhost:challenge:8585
+12-04-2022 09:57:27.831 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+12-04-2022 09:57:27.878 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+12-04-2022 09:57:27.893 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+12-04-2022 09:57:27.940 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+12-04-2022 09:57:28.476 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+12-04-2022 09:57:28.976 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+12-04-2022 09:57:28.976 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 9.193 seconds (JVM running for 10.379)
+12-04-2022 09:57:38.004 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry.renew - DS: Registry: lease doesn't exist, registering resource: CHALLENGE-ZUUL - localhost:challenge-zuul:8282
+12-04-2022 09:57:38.020 [http-nio-8761-exec-9] WARN  c.n.e.resources.InstanceResource.renewLease - Not Found (Renew): CHALLENGE-ZUUL - localhost:challenge-zuul:8282
+12-04-2022 09:57:38.035 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8282 with status UP (replication=false)
+12-04-2022 09:57:38.556 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8282 with status UP (replication=true)

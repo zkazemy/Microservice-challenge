@@ -1,0 +1,1088 @@
+10-04-2022 10:06:28.587 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 10:06:28.602 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 10:06:28.602 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 10:06:28.707 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 10:06:28.816 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 10:06:28.832 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@782a4fff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46c670a6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59fc684e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ae81e1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2fd1731c, org.springframework.test.context.event.EventPublishingTestExecutionListener@5ae76500, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6063d80a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1133ec6e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@355e34c7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@54709809, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a2da905, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@24f360b2]
+10-04-2022 10:06:30.526 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 19008 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 10:06:30.526 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 10:06:31.273 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 10:06:31.941 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:06:32.504 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:06:32.504 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:06:32.504 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:06:32.504 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:06:32.535 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:06:32.551 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:06:32.629 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:06:33.662 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:06:34.201 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:06:34.216 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:06:34.216 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:06:34.216 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:06:34.247 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:06:34.263 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:06:34.341 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:06:35.370 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:06:35.370 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 10:06:35.463 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 10:06:35.620 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 10:06:35.635 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 10:06:35.635 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 10:06:35.651 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649568995651 with initial instances count: 0
+10-04-2022 10:06:35.698 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 10:06:35.698 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 10:06:35.739 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 10:06:35.754 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 10:06:35.895 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 10:06:35.942 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 10:06:35.942 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 10:06:35.957 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 10:06:35.957 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 10:06:35.957 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 10:06:35.957 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 10:06:35.957 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 10:06:35.957 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.098 seconds (JVM running for 8.043)
+10-04-2022 10:06:35.973 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 10:06:36.364 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 10:06:36.364 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 10:06:36.364 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:06:36.379 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:06:36.379 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 10:06:36.379 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:06:36.395 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:06:36.395 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:06:36.395 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 10:06:36.395 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 10:09:13.259 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 10:09:13.266 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 10:09:13.267 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 10:09:13.359 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 10:09:13.460 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 10:09:13.468 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 10:09:15.224 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 1040 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 10:09:15.225 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 10:09:16.013 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 10:09:16.719 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:09:17.353 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:09:17.358 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:09:17.359 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:09:17.362 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:09:17.397 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:09:17.412 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:09:17.424 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:09:17.504 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:09:18.533 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:09:19.172 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:09:19.178 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:09:19.178 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:09:19.181 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:09:19.213 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:09:19.228 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:09:19.240 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:09:19.314 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:09:20.347 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:09:20.371 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 10:09:20.468 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 10:09:20.651 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 10:09:20.682 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 10:09:20.684 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 10:09:20.693 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649569160692 with initial instances count: 0
+10-04-2022 10:09:20.746 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 10:09:20.748 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 10:09:20.801 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 10:09:20.803 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 10:09:20.966 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 10:09:21.005 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 10:09:21.008 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 10:09:21.021 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 10:09:21.021 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 10:09:21.022 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 10:09:21.022 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 10:09:21.022 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 10:09:21.024 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.524 seconds (JVM running for 8.437)
+10-04-2022 10:09:21.032 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 10:09:21.348 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 10:09:21.350 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 10:09:21.354 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:09:21.365 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:09:21.365 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 10:09:21.366 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:09:21.371 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:09:21.375 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:09:21.376 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 10:09:21.377 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 10:10:38.299 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 10:10:38.305 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 10:10:38.305 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 10:10:38.397 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 10:10:38.498 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 10:10:38.508 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 10:10:40.291 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 18840 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 10:10:40.292 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 10:10:41.135 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 10:10:41.830 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:10:42.500 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:10:42.505 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:10:42.506 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:10:42.508 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:10:42.540 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:10:42.554 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:10:42.566 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:10:42.643 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:10:43.688 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:10:44.400 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:10:44.405 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:10:44.406 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:10:44.409 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:10:44.445 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:10:44.459 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:10:44.472 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:10:44.556 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:10:45.593 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:10:45.613 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 10:10:45.745 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 10:10:45.967 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 10:10:46.002 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 10:10:46.004 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 10:10:46.014 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649569246013 with initial instances count: 0
+10-04-2022 10:10:46.081 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 10:10:46.084 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 10:10:46.150 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 10:10:46.153 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 10:10:46.361 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 10:10:46.404 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 10:10:46.407 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 10:10:46.419 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 10:10:46.419 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 10:10:46.419 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 10:10:46.419 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 10:10:46.420 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 10:10:46.423 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.882 seconds (JVM running for 8.771)
+10-04-2022 10:10:46.433 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 10:10:46.864 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 10:10:46.866 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 10:10:46.885 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:10:46.909 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:10:46.909 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 10:10:46.910 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:10:46.915 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:10:46.918 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:10:46.919 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 10:10:46.920 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 10:13:21.748 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 10:13:21.754 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 10:13:21.755 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 10:13:21.853 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 10:13:21.957 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 10:13:21.967 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 10:13:23.775 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 4840 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 10:13:23.776 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 10:13:24.567 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 10:13:25.306 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:13:25.958 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:13:25.963 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:13:25.963 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:13:25.966 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:13:25.999 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:13:26.014 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:13:26.026 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:13:26.103 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:13:27.139 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:13:27.772 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:13:27.777 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:13:27.778 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:13:27.780 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:13:27.812 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:13:27.826 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:13:27.837 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:13:27.912 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:13:28.949 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:13:28.962 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 10:13:29.057 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 10:13:29.236 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 10:13:29.269 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 10:13:29.271 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 10:13:29.281 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649569409280 with initial instances count: 0
+10-04-2022 10:13:29.334 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 10:13:29.336 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 10:13:29.384 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 10:13:29.386 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 10:13:29.568 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 10:13:29.624 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 10:13:29.628 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 10:13:29.640 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 10:13:29.641 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 10:13:29.641 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 10:13:29.641 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 10:13:29.641 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 10:13:29.647 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.644 seconds (JVM running for 8.595)
+10-04-2022 10:13:29.654 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 10:13:30.002 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 10:13:30.003 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 10:13:30.010 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:13:30.020 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:13:30.020 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 10:13:30.021 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 10:13:30.026 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 10:13:30.030 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:13:30.031 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 10:13:30.032 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 10:15:16.527 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 19896 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 10:15:16.529 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 10:15:17.127 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 10:15:17.264 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 10:15:17.270 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 10:15:17.270 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 10:15:17.271 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 10:15:17.367 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 10:15:17.368 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 813 ms
+10-04-2022 10:15:17.668 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 10:15:17.704 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 10:15:17.704 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 10:15:17.785 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 10:15:17.786 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 10:15:18.048 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 10:15:18.465 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:15:18.469 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:18.470 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:18.472 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:15:18.502 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:15:18.517 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:15:18.530 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:15:18.606 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:15:19.642 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:15:20.125 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:15:20.130 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:20.130 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:20.132 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:15:20.163 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:15:20.176 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:15:20.187 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:15:20.258 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:15:21.293 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:15:21.302 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 10:15:21.348 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 10:15:21.358 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 10:15:21.373 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 10:15:21.373 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 10:15:21.376 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649569521375 with initial instances count: 0
+10-04-2022 10:15:21.395 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 10:15:21.396 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 10:15:21.405 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 10:15:21.406 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 10:15:21.411 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 10:15:21.449 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 10:15:21.451 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 10:15:21.451 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 10:15:21.457 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 10:15:21.458 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 10:15:21.458 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 10:15:21.458 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 10:15:21.459 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 10:15:21.465 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 10:15:21.467 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 10:15:21.468 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 10:15:21.784 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 10:15:21.788 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:21.788 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 10:15:21.790 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 10:15:21.821 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 10:15:21.834 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 10:15:21.846 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 10:15:21.870 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 10:15:21.870 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 10:15:21.871 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+10-04-2022 10:15:21.887 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry.renew - DS: Registry: lease doesn't exist, registering resource: CHALLENGE-ZUUL - localhost:challenge-zuul:8181
+10-04-2022 10:15:21.887 [http-nio-8761-exec-1] WARN  c.n.e.resources.InstanceResource.renewLease - Not Found (Renew): CHALLENGE-ZUUL - localhost:challenge-zuul:8181
+10-04-2022 10:15:21.927 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 10:15:21.954 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+10-04-2022 10:15:22.965 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 10:15:22.986 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.316 seconds (JVM running for 9.326)
+10-04-2022 10:16:21.462 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 10:16:35.402 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+10-04-2022 11:49:37.754 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 11:49:37.760 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 11:49:37.761 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 11:49:37.849 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 11:49:37.951 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 11:49:37.960 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 11:49:39.766 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 19788 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 11:49:39.767 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 11:49:40.718 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 11:49:41.476 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 11:49:42.199 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 11:49:42.204 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:49:42.205 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:49:42.208 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 11:49:42.241 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 11:49:42.256 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 11:49:42.268 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 11:49:42.349 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 11:49:43.390 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 11:49:44.092 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 11:49:44.098 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:49:44.098 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:49:44.101 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 11:49:44.137 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 11:49:44.153 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 11:49:44.166 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 11:49:44.254 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 11:49:45.286 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 11:49:45.300 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 11:49:45.432 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 11:49:45.603 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 11:49:45.631 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 11:49:45.633 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 11:49:45.643 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649575185642 with initial instances count: 0
+10-04-2022 11:49:45.686 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 11:49:45.688 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 11:49:45.732 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 11:49:45.734 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 11:49:45.900 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 11:49:45.946 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 11:49:45.949 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 11:49:45.960 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 11:49:45.960 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 11:49:45.960 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 11:49:45.960 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 11:49:45.961 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 11:49:45.963 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.971 seconds (JVM running for 8.932)
+10-04-2022 11:49:45.974 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 11:49:46.293 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 11:49:46.295 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 11:49:46.301 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 11:49:46.312 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 11:49:46.313 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 11:49:46.313 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 11:49:46.318 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 11:49:46.322 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 11:49:46.323 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 11:49:46.325 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 11:50:23.998 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 11:50:24.004 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 11:50:24.005 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 11:50:24.095 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 11:50:24.200 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 11:50:24.210 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 11:50:25.993 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 2468 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 11:50:25.994 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 11:50:26.788 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 11:50:27.500 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 11:50:28.155 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 11:50:28.161 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:50:28.161 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:50:28.164 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 11:50:28.198 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 11:50:28.215 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 11:50:28.227 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 11:50:28.303 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 11:50:29.342 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 11:50:29.991 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 11:50:29.996 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:50:29.997 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 11:50:30.000 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 11:50:30.032 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 11:50:30.047 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 11:50:30.059 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 11:50:30.136 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 11:50:31.171 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 11:50:31.184 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 11:50:31.284 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 11:50:31.449 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 11:50:31.483 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 11:50:31.485 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 11:50:31.495 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649575231495 with initial instances count: 0
+10-04-2022 11:50:31.545 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 11:50:31.548 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+10-04-2022 11:50:31.597 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 11:50:31.599 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 11:50:31.758 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 11:50:31.798 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 11:50:31.800 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 11:50:31.811 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 11:50:31.811 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 11:50:31.811 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 11:50:31.812 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 11:50:31.812 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 11:50:31.817 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 7.575 seconds (JVM running for 8.49)
+10-04-2022 11:50:31.823 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 11:50:32.168 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 11:50:32.169 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 11:50:32.177 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 11:50:32.190 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 11:50:32.190 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 11:50:32.191 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 11:50:32.196 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 11:50:32.200 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 11:50:32.201 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 11:50:32.202 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 12:01:23.673 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 12:01:23.682 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 12:01:23.683 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 12:01:23.799 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 12:01:23.952 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 12:01:23.978 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 12:01:26.578 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 2904 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 12:01:26.580 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 12:01:28.411 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 12:01:30.023 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:01:31.095 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:01:31.103 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:01:31.104 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:01:31.107 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:01:31.148 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:01:31.168 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:01:31.182 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:01:31.278 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:01:32.323 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:01:33.231 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:01:33.237 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:01:33.237 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:01:33.241 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:01:33.282 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:01:33.301 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:01:33.317 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:01:33.419 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:01:34.461 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:01:34.518 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 12:01:34.727 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 12:01:35.011 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 12:01:35.060 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 12:01:35.062 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 12:01:35.077 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649575895075 with initial instances count: 0
+10-04-2022 12:01:35.146 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 12:01:35.149 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 12:01:36.000 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 12:01:36.001 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 12:01:36.001 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 12:01:36.002 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 12:01:36.249 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 12:01:36.257 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 12:01:36.259 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 12:01:36.452 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 12:01:36.511 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 12:01:36.516 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 12:01:36.532 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 12:01:36.533 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 12:01:36.535 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 12:01:36.535 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 12:01:36.536 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 12:01:36.537 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 12.505 seconds (JVM running for 13.89)
+10-04-2022 12:01:36.550 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 12:01:37.262 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 12:01:37.265 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 12:01:37.272 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:01:37.307 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:01:37.307 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 12:01:37.310 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:01:37.321 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:01:37.334 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:01:37.344 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 12:01:37.347 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 12:18:22.178 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 12:18:22.184 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 12:18:22.185 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 12:18:22.277 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 12:18:22.378 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 12:18:22.388 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 12:18:24.306 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 22396 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 12:18:24.308 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 12:18:25.563 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 12:18:26.667 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:18:27.714 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:18:27.722 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:18:27.722 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:18:27.727 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:18:27.776 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:18:27.797 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:18:27.814 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:18:27.919 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:18:28.968 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:18:29.766 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:18:29.772 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:18:29.772 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:18:29.775 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:18:29.812 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:18:29.828 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:18:29.844 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:18:29.944 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:18:30.994 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:18:31.008 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 12:18:31.122 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 12:18:31.304 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 12:18:31.334 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 12:18:31.336 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 12:18:31.346 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649576911345 with initial instances count: 0
+10-04-2022 12:18:31.389 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 12:18:31.392 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 12:18:31.998 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 12:18:31.998 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 12:18:31.999 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 12:18:31.999 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 12:18:32.169 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 12:18:32.176 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 12:18:32.178 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 12:18:32.363 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 12:18:32.406 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 12:18:32.408 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 12:18:32.420 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 12:18:32.421 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 12:18:32.421 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 12:18:32.421 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 12:18:32.421 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 12:18:32.424 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 10.002 seconds (JVM running for 11.15)
+10-04-2022 12:18:32.432 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 12:18:32.762 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 12:18:32.763 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 12:18:32.768 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:18:32.780 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:18:32.781 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 12:18:32.781 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:18:32.786 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:18:32.790 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:18:32.791 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 12:18:32.792 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 12:58:24.332 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests], using SpringBootContextLoader
+10-04-2022 12:58:24.340 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10-04-2022 12:58:24.341 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests]: ChallengeEurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10-04-2022 12:58:24.444 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.kazemi.challenge.discovery.ChallengeEurekaServerApplication for test class com.kazemi.challenge.discovery.ChallengeEurekaServerApplicationTests
+10-04-2022 12:58:24.550 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10-04-2022 12:58:24.561 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22c86919, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fab835, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b0a7baf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62417a16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32057e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@26be6ca7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@759fad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64712be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53499d85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ed9c6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@782a4fff]
+10-04-2022 12:58:26.450 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarting - Starting ChallengeEurekaServerApplicationTests using Java 11.0.10 on DESKTOP-40IOR98 with PID 10548 (started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 12:58:26.451 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 12:58:27.467 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=09398d4b-3115-3b75-84ab-ab9981e8410c
+10-04-2022 12:58:28.451 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:58:29.248 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:58:29.255 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:58:29.255 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:58:29.258 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:58:29.296 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:58:29.312 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:58:29.325 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:58:29.420 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:58:30.469 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:58:31.202 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 12:58:31.209 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:58:31.209 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 12:58:31.212 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 12:58:31.254 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 12:58:31.272 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+10-04-2022 12:58:31.285 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 12:58:31.372 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 12:58:32.412 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 12:58:32.433 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 12:58:32.572 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 12:58:32.767 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 12:58:32.805 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 12:58:32.807 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 12:58:32.818 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649579312817 with initial instances count: 0
+10-04-2022 12:58:32.891 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 12:58:32.894 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 12:58:33.585 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 12:58:33.585 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 12:58:33.586 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 12:58:33.586 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 12:58:33.767 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 12:58:33.775 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 12:58:33.776 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 12:58:33.948 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 12:58:33.985 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 12:58:33.988 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 12:58:34.000 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 12:58:34.001 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 12:58:34.001 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 12:58:34.001 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 12:58:34.001 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 12:58:34.006 [main] INFO  c.k.c.d.ChallengeEurekaServerApplicationTests.logStarted - Started ChallengeEurekaServerApplicationTests in 9.406 seconds (JVM running for 10.563)
+10-04-2022 12:58:34.011 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 12:58:34.347 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application CHALLENGE-EUREKA-SERVER with eureka with status DOWN
+10-04-2022 12:58:34.348 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Shutting down Eureka Server..
+10-04-2022 12:58:34.354 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:58:34.370 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:58:34.371 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap.contextDestroyed - Eureka Service is now shutdown...
+10-04-2022 12:58:34.371 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shutting down ...
+10-04-2022 12:58:34.376 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext.shutdown - Shut down
+10-04-2022 12:58:34.381 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-04-2022 12:58:34.382 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+10-04-2022 12:58:34.383 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+10-04-2022 16:37:26.928 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 20564 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 16:37:26.928 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 16:37:27.616 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 16:37:27.756 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 16:37:27.772 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 16:37:27.772 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 16:37:27.772 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 16:37:27.866 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 16:37:27.866 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 907 ms
+10-04-2022 16:37:28.194 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 16:37:28.225 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 16:37:28.225 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 16:37:28.334 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 16:37:28.334 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 16:37:28.620 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 16:37:28.995 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:37:29.011 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:29.011 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:29.011 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:37:29.026 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:37:29.057 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:37:29.073 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:37:30.140 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:37:30.578 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:37:30.578 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:30.578 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:30.593 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:37:30.609 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:37:30.640 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:37:30.656 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:37:31.723 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:37:31.723 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 16:37:31.754 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 16:37:31.770 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 16:37:31.801 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 16:37:31.801 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 16:37:31.801 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649592451801 with initial instances count: 0
+10-04-2022 16:37:31.833 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 16:37:31.833 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 16:37:31.958 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 16:37:31.958 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 16:37:31.958 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 16:37:31.958 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 16:37:32.020 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 16:37:32.036 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 16:37:32.036 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 16:37:32.036 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 16:37:32.083 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 16:37:32.083 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 16:37:32.083 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 16:37:32.083 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 16:37:32.083 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 16:37:32.083 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 16:37:32.083 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 16:37:32.083 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 16:37:32.083 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 16:37:32.098 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 16:37:32.098 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 16:37:32.348 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:37:32.348 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:32.348 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:37:32.348 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:37:32.364 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:37:32.395 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:37:32.426 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:37:33.489 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:37:33.489 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.314 seconds (JVM running for 9.339)
+10-04-2022 16:37:34.176 [RMI TCP Connection(3)-172.17.176.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 16:37:34.176 [RMI TCP Connection(3)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 16:37:34.192 [RMI TCP Connection(3)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 16 ms
+10-04-2022 16:38:32.084 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 16:39:13.306 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 6192 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 16:39:13.306 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 16:39:13.874 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 16:39:13.995 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 16:39:13.995 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 16:39:13.995 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 16:39:13.995 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 16:39:14.074 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 16:39:14.074 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+10-04-2022 16:39:14.365 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 16:39:14.396 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 16:39:14.396 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 16:39:14.474 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 16:39:14.474 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 16:39:14.731 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 16:39:15.090 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:39:15.090 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:15.090 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:15.090 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:39:15.106 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:39:15.137 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:39:15.153 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:39:16.222 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:39:16.692 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:39:16.707 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:16.707 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:16.707 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:39:16.723 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:39:16.754 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:39:16.770 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:39:17.848 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:39:17.848 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 16:39:17.864 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 16:39:17.879 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 16:39:17.895 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 16:39:17.895 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 16:39:17.895 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649592557895 with initial instances count: 0
+10-04-2022 16:39:17.911 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 16:39:17.911 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 16:39:18.004 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 16:39:18.004 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 16:39:18.004 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 16:39:18.004 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 16:39:18.067 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 16:39:18.082 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 16:39:18.082 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 16:39:18.082 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 16:39:18.129 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 16:39:18.129 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 16:39:18.129 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 16:39:18.145 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 16:39:18.145 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 16:39:18.145 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 16:39:18.145 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 16:39:18.145 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 16:39:18.145 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 16:39:18.145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 16:39:18.145 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 16:39:18.410 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 16:39:18.410 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:18.410 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 16:39:18.410 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 16:39:18.442 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 16:39:18.473 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 16:39:18.489 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 16:39:19.546 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 16:39:19.546 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 7.978 seconds (JVM running for 8.889)
+10-04-2022 16:39:20.010 [RMI TCP Connection(5)-172.17.176.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 16:39:20.010 [RMI TCP Connection(5)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 16:39:20.010 [RMI TCP Connection(5)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+10-04-2022 16:39:46.383 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8787 with status UP (replication=false)
+10-04-2022 16:39:46.922 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8787 with status UP (replication=true)
+10-04-2022 16:40:09.639 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8484 with status UP (replication=false)
+10-04-2022 16:40:10.164 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8484 with status UP (replication=true)
+10-04-2022 16:40:18.148 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 16:41:18.155 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 16:42:18.157 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+10-04-2022 19:25:00.102 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 2516 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 19:25:00.104 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 19:25:00.746 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 19:25:00.879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 19:25:00.884 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:25:00.885 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 19:25:00.885 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 19:25:00.981 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 19:25:00.981 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+10-04-2022 19:25:01.279 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 19:25:01.317 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:25:01.318 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:25:01.406 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:25:01.406 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:25:01.711 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 19:25:02.175 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:25:02.180 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:02.180 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:02.182 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:25:02.212 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:25:02.240 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:25:02.269 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:25:03.336 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:25:03.797 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:25:03.802 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:03.802 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:03.804 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:25:03.830 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:25:03.858 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:25:03.887 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:25:04.954 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:25:04.960 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 19:25:04.991 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 19:25:05.002 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 19:25:05.017 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 19:25:05.018 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 19:25:05.023 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649602505022 with initial instances count: 0
+10-04-2022 19:25:05.043 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 19:25:05.044 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 19:25:05.152 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:25:05.152 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:25:05.153 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:25:05.153 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:25:05.242 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 19:25:05.248 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 19:25:05.249 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 19:25:05.255 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 19:25:05.302 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 19:25:05.303 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:25:05.304 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 19:25:05.313 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 19:25:05.313 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 19:25:05.313 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 19:25:05.313 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 19:25:05.314 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 19:25:05.319 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 19:25:05.322 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 19:25:05.324 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 19:25:05.654 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:25:05.658 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:05.659 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:25:05.661 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:25:05.685 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:25:05.713 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:25:05.742 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:25:06.800 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:25:06.813 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.493 seconds (JVM running for 9.413)
+10-04-2022 19:25:07.066 [RMI TCP Connection(11)-172.17.176.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 19:25:07.066 [RMI TCP Connection(11)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 19:25:07.067 [RMI TCP Connection(11)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+10-04-2022 19:26:52.138 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 17836 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 19:26:52.140 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 19:26:52.716 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 19:26:52.840 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 19:26:52.844 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:26:52.845 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 19:26:52.845 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 19:26:52.941 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 19:26:52.941 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+10-04-2022 19:26:53.241 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 19:26:53.274 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:26:53.275 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:26:53.354 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:26:53.354 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:26:53.618 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 19:26:54.008 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:26:54.013 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:54.013 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:54.015 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:26:54.040 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:26:54.069 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:26:54.097 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:26:55.162 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:26:55.708 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:26:55.713 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:55.713 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:55.716 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:26:55.747 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:26:55.781 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:26:55.817 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:26:56.882 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:26:56.887 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 19:26:56.923 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 19:26:56.936 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 19:26:56.955 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 19:26:56.955 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 19:26:56.959 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649602616958 with initial instances count: 0
+10-04-2022 19:26:56.985 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 19:26:56.987 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 19:26:57.097 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:26:57.097 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:26:57.097 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:26:57.097 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:26:57.163 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 19:26:57.169 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 19:26:57.169 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 19:26:57.176 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 19:26:57.225 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 19:26:57.227 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:26:57.227 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 19:26:57.234 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 19:26:57.235 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 19:26:57.235 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 19:26:57.235 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 19:26:57.235 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 19:26:57.241 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 19:26:57.247 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 19:26:57.248 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 19:26:57.656 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:26:57.661 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:57.661 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:26:57.663 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:26:57.694 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:26:57.723 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:26:57.752 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:26:58.806 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:26:58.826 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.457 seconds (JVM running for 9.375)
+10-04-2022 19:26:59.567 [RMI TCP Connection(7)-172.17.176.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 19:26:59.567 [RMI TCP Connection(7)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 19:26:59.568 [RMI TCP Connection(7)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+10-04-2022 19:27:57.244 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 19:28:51.966 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 22500 (D:\Interview Tasks\Backbase\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase\challenge-eureka-server)
+10-04-2022 19:28:51.968 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10-04-2022 19:28:52.614 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+10-04-2022 19:28:52.752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+10-04-2022 19:28:52.757 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:28:52.758 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-04-2022 19:28:52.758 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10-04-2022 19:28:52.862 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-04-2022 19:28:52.863 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+10-04-2022 19:28:53.186 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+10-04-2022 19:28:53.226 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:28:53.227 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:28:53.306 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:28:53.307 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:28:53.574 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-04-2022 19:28:54.047 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:28:54.052 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:54.052 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:54.054 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:28:54.086 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:28:54.121 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:28:54.157 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:28:55.227 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:28:55.698 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:28:55.702 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:55.703 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:55.705 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:28:55.729 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:28:55.757 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:28:55.785 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:28:56.847 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:28:56.852 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+10-04-2022 19:28:56.883 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10-04-2022 19:28:56.894 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+10-04-2022 19:28:56.909 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+10-04-2022 19:28:56.909 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+10-04-2022 19:28:56.913 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649602736912 with initial instances count: 0
+10-04-2022 19:28:56.931 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+10-04-2022 19:28:56.932 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10-04-2022 19:28:57.027 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+10-04-2022 19:28:57.027 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+10-04-2022 19:28:57.028 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+10-04-2022 19:28:57.028 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+10-04-2022 19:28:57.088 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+10-04-2022 19:28:57.093 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+10-04-2022 19:28:57.094 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+10-04-2022 19:28:57.099 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-04-2022 19:28:57.145 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+10-04-2022 19:28:57.146 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+10-04-2022 19:28:57.147 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+10-04-2022 19:28:57.154 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+10-04-2022 19:28:57.155 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+10-04-2022 19:28:57.155 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+10-04-2022 19:28:57.155 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+10-04-2022 19:28:57.155 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+10-04-2022 19:28:57.161 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+10-04-2022 19:28:57.166 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+10-04-2022 19:28:57.166 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+10-04-2022 19:28:57.462 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+10-04-2022 19:28:57.467 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:57.467 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+10-04-2022 19:28:57.469 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+10-04-2022 19:28:57.494 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+10-04-2022 19:28:57.523 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+10-04-2022 19:28:57.553 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+10-04-2022 19:28:58.611 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+10-04-2022 19:28:58.623 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.487 seconds (JVM running for 9.461)
+10-04-2022 19:28:59.131 [RMI TCP Connection(5)-172.17.176.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-04-2022 19:28:59.131 [RMI TCP Connection(5)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-04-2022 19:28:59.132 [RMI TCP Connection(5)-172.17.176.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+10-04-2022 19:29:27.942 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+10-04-2022 19:29:28.498 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=true)
+10-04-2022 19:29:34.435 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+10-04-2022 19:29:34.968 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+10-04-2022 19:29:36.396 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+10-04-2022 19:29:36.928 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+10-04-2022 19:29:39.779 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+10-04-2022 19:29:40.310 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+10-04-2022 19:29:40.310 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+10-04-2022 19:29:40.311 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+10-04-2022 19:29:40.312 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+10-04-2022 19:29:57.162 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 19:30:57.176 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 19:31:57.178 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+10-04-2022 19:32:11.233 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+10-04-2022 19:32:11.760 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+10-04-2022 19:32:13.284 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+10-04-2022 19:32:13.807 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+10-04-2022 19:32:16.651 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+10-04-2022 19:32:17.170 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+10-04-2022 19:32:17.170 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+10-04-2022 19:32:17.171 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+10-04-2022 19:32:17.171 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+10-04-2022 19:32:57.182 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 19:33:19.579 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+10-04-2022 19:33:20.101 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+10-04-2022 19:33:21.593 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+10-04-2022 19:33:22.129 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+10-04-2022 19:33:24.963 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+10-04-2022 19:33:25.483 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+10-04-2022 19:33:25.484 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+10-04-2022 19:33:25.485 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+10-04-2022 19:33:25.485 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+10-04-2022 19:33:57.188 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+10-04-2022 19:34:14.516 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+10-04-2022 19:34:15.039 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+10-04-2022 19:34:57.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+10-04-2022 19:35:57.202 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 19:36:57.217 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+10-04-2022 19:37:57.225 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 19:38:57.226 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+10-04-2022 19:39:57.240 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 19:40:57.254 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 19:41:57.261 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+10-04-2022 19:42:57.271 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 19:43:57.098 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+10-04-2022 19:43:57.286 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 19:44:57.289 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 19:45:57.292 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+10-04-2022 19:46:57.297 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 19:47:57.309 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 19:48:57.317 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 19:49:57.327 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 19:50:57.331 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 19:51:57.336 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 19:52:57.336 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 19:53:57.345 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+10-04-2022 19:54:57.354 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 19:55:57.367 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+10-04-2022 19:56:57.379 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+10-04-2022 19:57:57.393 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 19:58:57.108 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+10-04-2022 19:58:57.403 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 19:59:57.410 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 20:00:57.415 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 20:01:57.429 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:02:57.430 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:03:57.434 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 20:04:57.439 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 20:05:57.443 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:06:57.449 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+10-04-2022 20:07:57.462 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+10-04-2022 20:08:57.473 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+10-04-2022 20:09:57.478 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 20:10:57.493 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:11:57.493 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:12:57.505 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+10-04-2022 20:13:57.112 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+10-04-2022 20:13:57.508 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+10-04-2022 20:14:57.519 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 20:15:57.527 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+10-04-2022 20:16:57.530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:17:57.534 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:18:57.548 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:19:57.549 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:20:57.560 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 20:21:57.574 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+10-04-2022 20:22:57.580 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+10-04-2022 20:23:57.593 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 20:24:57.605 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 20:25:57.614 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 20:26:57.615 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:27:57.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:28:57.115 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+10-04-2022 20:28:57.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+10-04-2022 20:29:57.645 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 20:30:57.659 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:31:57.660 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:32:57.663 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:33:57.676 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 20:34:57.683 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 20:35:57.698 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:36:57.701 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:37:57.712 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 20:38:57.724 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 20:39:57.728 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:40:57.743 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:41:57.753 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+10-04-2022 20:42:57.760 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+10-04-2022 20:43:57.128 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+10-04-2022 20:43:57.772 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+10-04-2022 20:44:57.775 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+10-04-2022 20:45:57.784 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 20:46:57.790 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+10-04-2022 20:47:57.805 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+10-04-2022 20:48:57.805 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+10-04-2022 20:49:57.820 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+10-04-2022 20:50:57.833 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+10-04-2022 20:51:57.843 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+10-04-2022 20:52:57.846 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+10-04-2022 20:53:57.852 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms

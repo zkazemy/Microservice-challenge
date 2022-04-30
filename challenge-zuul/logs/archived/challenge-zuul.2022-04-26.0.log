@@ -1,0 +1,99 @@
+26-04-2022 13:41:19.952 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStarting - Starting ChallengeZuulApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 20056 (D:\Interview Tasks\Backbase - Final 1\challenge-zuul\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-zuul)
+26-04-2022 13:41:19.957 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+26-04-2022 13:41:20.557 [main] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+26-04-2022 13:41:20.652 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=70602b9e-e087-37be-a29f-9daf5f53437f
+26-04-2022 13:41:20.967 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+26-04-2022 13:41:20.973 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+26-04-2022 13:41:20.973 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-04-2022 13:41:20.973 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+26-04-2022 13:41:21.086 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-04-2022 13:41:21.087 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1092 ms
+26-04-2022 13:41:21.146 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+26-04-2022 13:41:21.146 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+26-04-2022 13:41:21.157 [main] INFO  c.n.config.DynamicPropertyFactory.getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@73e1ecd0
+26-04-2022 13:41:21.882 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+26-04-2022 13:41:21.882 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+26-04-2022 13:41:21.990 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+26-04-2022 13:41:22.855 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+26-04-2022 13:41:22.981 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+26-04-2022 13:41:23.132 [main] INFO  o.s.c.n.zuul.ZuulFilterInitializer.contextInitialized - Starting filter initializer
+26-04-2022 13:41:23.140 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+26-04-2022 13:41:23.185 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+26-04-2022 13:41:23.206 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+26-04-2022 13:41:23.239 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+26-04-2022 13:41:23.240 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+26-04-2022 13:41:23.324 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+26-04-2022 13:41:23.325 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+26-04-2022 13:41:23.430 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+26-04-2022 13:41:23.439 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+26-04-2022 13:41:23.439 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+26-04-2022 13:41:23.440 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+26-04-2022 13:41:23.440 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+26-04-2022 13:41:23.440 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+26-04-2022 13:41:23.440 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+26-04-2022 13:41:23.440 [main] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+26-04-2022 13:41:23.492 [main] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+26-04-2022 13:41:23.493 [main] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+26-04-2022 13:41:23.495 [main] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+26-04-2022 13:41:23.498 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1650964283497 with initial instances count: 0
+26-04-2022 13:41:23.500 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-ZUUL with eureka with status UP
+26-04-2022 13:41:23.500 [main] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1650964283500, current=UP, previous=STARTING]
+26-04-2022 13:41:23.502 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_CHALLENGE-ZUUL/DESKTOP-40IOR98:challenge-zuul:8181: registering service...
+26-04-2022 13:41:23.503 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+26-04-2022 13:41:23.518 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+26-04-2022 13:41:23.519 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8181
+26-04-2022 13:41:23.536 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_CHALLENGE-ZUUL/DESKTOP-40IOR98:challenge-zuul:8181 - registration status: 204
+26-04-2022 13:41:24.229 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStarted - Started ChallengeZuulApplication in 5.245 seconds (JVM running for 6.321)
+26-04-2022 13:41:24.782 [RMI TCP Connection(6)-172.28.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-04-2022 13:41:24.783 [RMI TCP Connection(6)-172.28.16.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+26-04-2022 13:41:24.784 [RMI TCP Connection(6)-172.28.16.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+26-04-2022 13:46:07.442 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStarting - Starting ChallengeZuulApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 20068 (D:\Interview Tasks\Backbase - Final 1\challenge-zuul\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-zuul)
+26-04-2022 13:46:07.445 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+26-04-2022 13:46:08.079 [main] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+26-04-2022 13:46:08.171 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=70602b9e-e087-37be-a29f-9daf5f53437f
+26-04-2022 13:46:08.481 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+26-04-2022 13:46:08.486 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+26-04-2022 13:46:08.487 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-04-2022 13:46:08.487 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+26-04-2022 13:46:08.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-04-2022 13:46:08.591 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+26-04-2022 13:46:08.640 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+26-04-2022 13:46:08.640 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+26-04-2022 13:46:08.646 [main] INFO  c.n.config.DynamicPropertyFactory.getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7761e342
+26-04-2022 13:46:09.261 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+26-04-2022 13:46:09.262 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+26-04-2022 13:46:09.353 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+26-04-2022 13:46:10.027 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+26-04-2022 13:46:10.137 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+26-04-2022 13:46:10.268 [main] INFO  o.s.c.n.zuul.ZuulFilterInitializer.contextInitialized - Starting filter initializer
+26-04-2022 13:46:10.277 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+26-04-2022 13:46:10.323 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+26-04-2022 13:46:10.348 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+26-04-2022 13:46:10.389 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+26-04-2022 13:46:10.390 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+26-04-2022 13:46:10.488 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+26-04-2022 13:46:10.488 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+26-04-2022 13:46:10.578 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+26-04-2022 13:46:10.589 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+26-04-2022 13:46:10.589 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+26-04-2022 13:46:10.589 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+26-04-2022 13:46:10.590 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+26-04-2022 13:46:10.590 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+26-04-2022 13:46:10.590 [main] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+26-04-2022 13:46:10.590 [main] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+26-04-2022 13:46:10.674 [main] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+26-04-2022 13:46:10.676 [main] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+26-04-2022 13:46:10.677 [main] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+26-04-2022 13:46:10.681 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1650964570680 with initial instances count: 1
+26-04-2022 13:46:10.682 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-ZUUL with eureka with status UP
+26-04-2022 13:46:10.682 [main] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1650964570682, current=UP, previous=STARTING]
+26-04-2022 13:46:10.684 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_CHALLENGE-ZUUL/DESKTOP-40IOR98:challenge-zuul:8181: registering service...
+26-04-2022 13:46:10.686 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+26-04-2022 13:46:10.701 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+26-04-2022 13:46:10.702 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8181
+26-04-2022 13:46:10.716 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_CHALLENGE-ZUUL/DESKTOP-40IOR98:challenge-zuul:8181 - registration status: 204
+26-04-2022 13:46:11.220 [main] INFO  c.k.c.api.ChallengeZuulApplication.logStarted - Started ChallengeZuulApplication in 4.691 seconds (JVM running for 5.683)
+26-04-2022 13:46:12.239 [RMI TCP Connection(5)-172.28.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-04-2022 13:46:12.239 [RMI TCP Connection(5)-172.28.16.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+26-04-2022 13:46:12.241 [RMI TCP Connection(5)-172.28.16.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+26-04-2022 13:46:17.390 [http-nio-8181-exec-4] INFO  c.kazemi.challenge.api.SimpleFilter.run - GET request to http://localhost:8181/challenge/api/v1/movies/top-movies/10

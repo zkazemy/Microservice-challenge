@@ -1,0 +1,79 @@
+version: '3.7'
+services:
+  db:
+    image: postgres:14.1-alpine
+    container_name: db
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres 
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5     
+    volumes: 
+      - db:/var/lib/postgresql/data
+    networks:
+      microservice_network:
+  challenge-eureka:
+    image: 'challenge-eureka:latest'
+    container_name: challenge-eureka
+    restart: always
+    volumes:
+      - /opt/workspace/nerdcode/docker/data/logs:/logs:rw
+    ports:
+      - "8761:8761"
+    mem_limit: 512m
+    mem_reservation: 256m
+    cpus: 1
+    networks:
+      microservice_network:
+        aliases:
+          - eureka-server
+  challenge:
+    image: 'challenge:latest'
+    container_name: challenge
+    restart: always
+    volumes:
+      - /opt/workspace/nerdcode/docker/data/logs:/logs:rw
+    ports:
+      - "8585:8585"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/postgres
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update 
+    mem_limit: 256m
+    mem_reservation: 128m
+    cpus: 0.5    
+    depends_on:
+      - challenge-eureka
+      - db
+    networks:
+      microservice_network:
+  challenge-zuul:
+    image: 'challenge-zuul:latest'
+    container_name: challenge-zuul
+    restart: always
+    volumes:
+      - /opt/workspace/nerdcode/docker/data/logs:/logs:rw
+    ports:
+      - "8181:8181"
+    mem_limit: 256m
+    mem_reservation: 128m
+    cpus: 0.5
+    depends_on:
+      - challenge-eureka
+      - challenge
+    networks:
+      microservice_network:
+networks:
+  microservice_network:
+    ipam:
+      driver: default
+volumes:
+  db:
+    driver: local      

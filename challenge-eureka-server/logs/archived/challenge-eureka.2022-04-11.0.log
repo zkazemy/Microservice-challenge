@@ -1,0 +1,492 @@
+11-04-2022 18:43:34.148 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 11540 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+11-04-2022 18:43:34.153 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11-04-2022 18:43:34.771 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+11-04-2022 18:43:34.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+11-04-2022 18:43:34.909 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+11-04-2022 18:43:34.909 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-04-2022 18:43:34.909 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11-04-2022 18:43:35.014 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-04-2022 18:43:35.014 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 832 ms
+11-04-2022 18:43:35.326 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+11-04-2022 18:43:35.361 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+11-04-2022 18:43:35.362 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+11-04-2022 18:43:35.440 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+11-04-2022 18:43:35.440 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+11-04-2022 18:43:35.721 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-04-2022 18:43:36.190 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 18:43:36.196 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:36.196 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:36.198 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 18:43:36.227 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 18:43:36.249 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 18:43:36.260 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 18:43:36.292 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 18:43:37.376 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 18:43:37.867 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 18:43:37.872 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:37.872 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:37.874 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 18:43:37.900 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 18:43:37.920 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 18:43:37.930 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 18:43:37.961 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 18:43:39.029 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 18:43:39.042 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+11-04-2022 18:43:39.067 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+11-04-2022 18:43:39.077 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+11-04-2022 18:43:39.092 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+11-04-2022 18:43:39.092 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+11-04-2022 18:43:39.095 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649686419095 with initial instances count: 0
+11-04-2022 18:43:39.113 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+11-04-2022 18:43:39.114 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+11-04-2022 18:43:39.208 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+11-04-2022 18:43:39.209 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+11-04-2022 18:43:39.209 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+11-04-2022 18:43:39.209 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+11-04-2022 18:43:39.273 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+11-04-2022 18:43:39.278 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+11-04-2022 18:43:39.278 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+11-04-2022 18:43:39.284 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-04-2022 18:43:39.327 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+11-04-2022 18:43:39.328 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+11-04-2022 18:43:39.328 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+11-04-2022 18:43:39.335 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+11-04-2022 18:43:39.336 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+11-04-2022 18:43:39.336 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+11-04-2022 18:43:39.337 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+11-04-2022 18:43:39.337 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+11-04-2022 18:43:39.342 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+11-04-2022 18:43:39.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+11-04-2022 18:43:39.347 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+11-04-2022 18:43:39.671 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 18:43:39.676 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:39.676 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 18:43:39.678 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 18:43:39.706 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 18:43:39.726 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 18:43:39.737 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 18:43:39.769 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 18:43:40.842 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 18:43:40.862 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.624 seconds (JVM running for 9.609)
+11-04-2022 18:43:41.889 [RMI TCP Connection(4)-20.30.0.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-04-2022 18:43:41.889 [RMI TCP Connection(4)-20.30.0.44] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-04-2022 18:43:41.890 [RMI TCP Connection(4)-20.30.0.44] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+11-04-2022 18:44:01.728 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+11-04-2022 18:44:02.297 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=true)
+11-04-2022 18:44:08.097 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 18:44:08.627 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 18:44:39.353 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 18:45:39.367 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 18:46:39.381 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 18:47:39.388 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 18:48:39.396 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 18:49:39.407 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 18:50:39.417 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 18:51:39.419 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 18:52:39.431 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 18:53:11.022 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 18:53:11.548 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 18:53:14.057 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 18:53:14.575 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 18:53:17.524 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:0 (replication=false)
+11-04-2022 18:53:18.053 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:0
+11-04-2022 18:53:18.053 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:0
+11-04-2022 18:53:18.054 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:0:Cancel@localhost failed with response code 404
+11-04-2022 18:53:18.054 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:0:Cancel@localhost: missing entry.
+11-04-2022 18:53:39.432 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 19:20:59.206 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarting - Starting ChallengeEurekaServerApplication using Java 11.0.10 on DESKTOP-40IOR98 with PID 23880 (D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server\target\classes started by z.kazemi in D:\Interview Tasks\Backbase - Final 1\challenge-eureka-server)
+11-04-2022 19:20:59.208 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11-04-2022 19:20:59.827 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=5cf1599e-1aa4-351d-8aec-64443d8bccff
+11-04-2022 19:20:59.993 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8761 (http)
+11-04-2022 19:20:59.999 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8761"]
+11-04-2022 19:20:59.999 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-04-2022 19:21:00.000 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11-04-2022 19:21:00.110 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-04-2022 19:21:00.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 876 ms
+11-04-2022 19:21:00.447 [main] INFO  c.s.j.s.i.a.WebApplicationImpl._initiate - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+11-04-2022 19:21:00.496 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+11-04-2022 19:21:00.497 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+11-04-2022 19:21:00.596 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+11-04-2022 19:21:00.597 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+11-04-2022 19:21:00.932 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-04-2022 19:21:01.386 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 19:21:01.392 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:01.392 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:01.394 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 19:21:01.424 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 19:21:01.447 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 19:21:01.460 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 19:21:01.492 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 19:21:02.569 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 19:21:03.073 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 19:21:03.078 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:03.078 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:03.081 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 19:21:03.108 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 19:21:03.129 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 19:21:03.140 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 19:21:03.171 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 19:21:04.244 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 19:21:04.249 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs - Eureka HTTP Client uses Jersey
+11-04-2022 19:21:04.276 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+11-04-2022 19:21:04.288 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+11-04-2022 19:21:04.304 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+11-04-2022 19:21:04.304 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+11-04-2022 19:21:04.307 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1649688664307 with initial instances count: 0
+11-04-2022 19:21:04.327 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initializing ...
+11-04-2022 19:21:04.328 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+11-04-2022 19:21:04.430 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+11-04-2022 19:21:04.430 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+11-04-2022 19:21:04.430 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+11-04-2022 19:21:04.430 [main] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+11-04-2022 19:21:04.495 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes.start - Replica node URL:  http://localhost:8761/eureka/
+11-04-2022 19:21:04.501 [main] INFO  c.n.e.r.AbstractInstanceRegistry.initRemoteRegionRegistry - Finished initializing remote region registries. All known remote regions: []
+11-04-2022 19:21:04.502 [main] INFO  c.n.e.DefaultEurekaServerContext.initialize - Initialized
+11-04-2022 19:21:04.509 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-04-2022 19:21:04.554 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application CHALLENGE-EUREKA-SERVER with eureka with status UP
+11-04-2022 19:21:04.556 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8761"]
+11-04-2022 19:21:04.556 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaEnvironment - Setting the eureka configuration..
+11-04-2022 19:21:04.564 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.isAws - isAws returned false
+11-04-2022 19:21:04.566 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap.initEurekaServerContext - Initialized server context
+11-04-2022 19:21:04.566 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Got 1 instances from neighboring DS node
+11-04-2022 19:21:04.566 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Renew threshold is: 1
+11-04-2022 19:21:04.566 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.openForTraffic - Changing status to UP
+11-04-2022 19:21:04.572 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration.lambda$start$0 - Started Eureka Server
+11-04-2022 19:21:04.576 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8761 (http) with context path ''
+11-04-2022 19:21:04.576 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8761
+11-04-2022 19:21:04.911 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Software Loopback Interface 1
+11-04-2022 19:21:04.918 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:04.919 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Found non-loopback interface: VMware Virtual Ethernet Adapter for VMnet8
+11-04-2022 19:21:04.922 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: VMware Virtual Ethernet Adapter for VMnet1
+11-04-2022 19:21:04.953 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Intel(R) Wi-Fi 6 AX201 160MHz
+11-04-2022 19:21:04.974 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+11-04-2022 19:21:04.985 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter
+11-04-2022 19:21:05.018 [main] TRACE o.s.cloud.commons.util.InetUtils.findFirstNonLoopbackAddress - Testing interface: Hyper-V Virtual Ethernet Adapter #2
+11-04-2022 19:21:06.097 [main] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+11-04-2022 19:21:06.109 [main] INFO  c.k.c.d.ChallengeEurekaServerApplication.logStarted - Started ChallengeEurekaServerApplication in 8.934 seconds (JVM running for 10.061)
+11-04-2022 19:21:06.936 [RMI TCP Connection(2)-20.30.0.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-04-2022 19:21:06.937 [RMI TCP Connection(2)-20.30.0.44] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-04-2022 19:21:06.939 [RMI TCP Connection(2)-20.30.0.44] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+11-04-2022 19:21:24.028 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=false)
+11-04-2022 19:21:24.590 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE-ZUUL/localhost:challenge-zuul:8181 with status UP (replication=true)
+11-04-2022 19:22:04.580 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 19:22:43.388 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:22:43.919 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:22:47.274 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:22:47.794 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:22:50.728 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+11-04-2022 19:22:51.249 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+11-04-2022 19:22:51.250 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+11-04-2022 19:22:51.253 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+11-04-2022 19:22:51.253 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+11-04-2022 19:23:04.588 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 19:23:16.885 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:23:17.408 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:23:33.346 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:23:33.868 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:23:36.916 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+11-04-2022 19:23:37.447 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+11-04-2022 19:23:37.448 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+11-04-2022 19:23:37.448 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+11-04-2022 19:23:37.449 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+11-04-2022 19:23:49.091 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:23:49.619 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:24:04.589 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 19:25:04.598 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 19:25:46.539 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:25:47.064 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:25:59.891 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:26:00.423 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:26:04.603 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 19:26:13.870 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:26:14.390 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:26:29.131 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:26:29.659 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:26:45.765 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:26:46.285 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:27:04.612 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 19:27:07.828 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:27:08.356 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:28:04.619 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 19:29:04.620 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 19:29:16.523 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:29:17.036 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:29:17.039 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Heartbeat@localhost failed with response code 409
+11-04-2022 19:29:17.039 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode.syncInstancesIfTimestampDiffers - Peer wants us to take the instance information from it, since the timestamp differs,Id : localhost:challenge:8585 My Timestamp : 1649689027789, Peer's timestamp: 1649689156520
+11-04-2022 19:29:17.039 [TaskBatchingWorker-target_localhost-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:29:29.606 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:29:30.131 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:30:04.624 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+11-04-2022 19:30:46.670 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:30:47.192 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:31:00.277 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:31:00.798 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:31:04.060 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:31:04.580 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:31:04.626 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 19:31:07.482 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+11-04-2022 19:31:08.013 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+11-04-2022 19:31:08.013 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+11-04-2022 19:31:08.014 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+11-04-2022 19:31:08.014 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+11-04-2022 19:31:37.370 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:31:37.888 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:31:41.573 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:31:42.093 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:31:44.997 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:8585 (replication=false)
+11-04-2022 19:31:45.520 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:8585
+11-04-2022 19:31:45.520 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:8585
+11-04-2022 19:31:45.521 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:8585:Cancel@localhost failed with response code 404
+11-04-2022 19:31:45.521 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:8585:Cancel@localhost: missing entry.
+11-04-2022 19:32:04.631 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 19:32:20.559 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:32:21.088 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:32:25.082 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:32:25.604 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:32:37.769 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:32:38.305 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:33:04.632 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 19:33:28.444 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 19:33:28.964 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 19:33:45.234 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 19:33:45.757 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 19:34:04.643 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 19:35:04.657 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 19:35:55.450 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 19:35:55.974 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 19:35:59.808 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 19:36:00.333 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 19:36:04.513 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 6
+11-04-2022 19:36:04.671 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:37:04.685 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:38:04.696 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 19:39:04.704 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 19:40:04.706 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 19:41:04.718 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 19:42:04.733 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:43:04.735 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 19:44:04.737 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 19:45:04.742 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 19:46:04.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 19:47:04.761 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:48:04.775 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:49:04.790 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:50:04.803 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 19:51:04.515 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 6
+11-04-2022 19:51:04.817 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 19:52:04.831 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 19:53:04.842 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 19:54:04.853 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 19:55:04.863 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 19:56:04.875 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 19:57:04.880 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 19:58:04.893 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 19:59:04.907 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 20:00:04.920 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 20:01:04.922 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 20:02:04.937 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 20:03:04.938 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 20:04:04.949 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 20:05:04.955 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 20:06:04.523 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 6
+11-04-2022 20:06:04.963 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 20:07:04.973 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 20:08:04.982 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:09:04.983 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 20:10:04.985 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 20:11:04.993 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:12:05.003 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 20:13:05.015 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 20:14:05.022 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 20:15:05.026 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:16:05.029 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:17:01.467 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:17:01.990 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:17:04.429 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:17:04.949 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:17:05.043 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+11-04-2022 20:17:07.932 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:0 (replication=false)
+11-04-2022 20:17:08.455 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:0
+11-04-2022 20:17:08.455 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:0
+11-04-2022 20:17:08.455 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:0:Cancel@localhost failed with response code 404
+11-04-2022 20:17:08.456 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:0:Cancel@localhost: missing entry.
+11-04-2022 20:17:15.290 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:17:15.807 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:17:17.441 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:17:17.961 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:17:34.864 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:17:35.389 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:17:43.099 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:17:43.625 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:18:05.050 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 20:18:52.495 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:18:53.023 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:18:54.921 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:18:55.440 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:18:58.411 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:0 (replication=false)
+11-04-2022 20:18:58.934 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:0
+11-04-2022 20:18:58.934 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:0
+11-04-2022 20:18:58.934 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:0:Cancel@localhost failed with response code 404
+11-04-2022 20:18:58.935 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:0:Cancel@localhost: missing entry.
+11-04-2022 20:19:05.066 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+11-04-2022 20:19:05.599 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:19:06.128 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:19:07.352 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:19:07.879 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:19:10.781 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:0 (replication=false)
+11-04-2022 20:19:11.306 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:0
+11-04-2022 20:19:11.307 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:0
+11-04-2022 20:19:11.307 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:0:Cancel@localhost failed with response code 404
+11-04-2022 20:19:11.307 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:0:Cancel@localhost: missing entry.
+11-04-2022 20:19:36.892 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 20:19:37.416 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 20:20:05.075 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 20:20:15.900 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 20:20:16.420 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 20:20:28.012 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 20:20:28.530 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 20:20:31.430 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 20:20:31.950 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 20:21:04.535 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 20:21:05.075 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 20:21:06.942 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 20:21:07.461 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 20:22:05.079 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:23:05.089 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 20:24:05.092 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 20:25:05.106 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 20:25:53.132 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=false)
+11-04-2022 20:25:53.652 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status DOWN (replication=true)
+11-04-2022 20:26:05.007 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 20:26:05.108 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 20:26:05.540 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 20:27:05.109 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 20:28:05.123 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 20:28:43.817 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=false)
+11-04-2022 20:28:44.339 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:8585 with status UP (replication=true)
+11-04-2022 20:29:05.133 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 20:30:05.137 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+11-04-2022 20:31:05.139 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 20:31:48.361 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=false)
+11-04-2022 20:31:48.887 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status UP (replication=true)
+11-04-2022 20:31:51.208 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=false)
+11-04-2022 20:31:51.731 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry.register - Registered instance CHALLENGE/localhost:challenge:0 with status DOWN (replication=true)
+11-04-2022 20:31:54.688 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry.internalCancel - Cancelled instance CHALLENGE/localhost:challenge:0 (replication=false)
+11-04-2022 20:31:55.220 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry.internalCancel - DS: Registry: cancel failed because Lease is not registered for: CHALLENGE/localhost:challenge:0
+11-04-2022 20:31:55.220 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource.cancelLease - Not Found (Cancel): CHALLENGE - localhost:challenge:0
+11-04-2022 20:31:55.220 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.ReplicationTask.handleFailure - The replication of task CHALLENGE/localhost:challenge:0:Cancel@localhost failed with response code 404
+11-04-2022 20:31:55.220 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.PeerEurekaNode.handleFailure - CHALLENGE/localhost:challenge:0:Cancel@localhost: missing entry.
+11-04-2022 20:32:05.149 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 20:33:05.158 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 20:34:05.162 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:35:05.165 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:36:04.550 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 20:36:05.172 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 20:37:05.181 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:38:05.187 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 20:39:05.202 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 20:40:05.202 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 20:41:05.210 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 20:42:05.223 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 20:43:05.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:44:05.234 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 20:45:05.237 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:46:05.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 20:47:05.255 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 20:48:05.261 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 20:49:05.275 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 20:50:05.287 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 20:51:04.560 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 20:51:05.289 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 20:52:05.293 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:53:05.301 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:54:05.311 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 20:55:05.316 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 20:56:05.319 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 20:57:05.328 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 20:58:05.340 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 20:59:05.349 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 21:00:05.359 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 21:01:05.373 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 21:02:05.375 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 21:03:05.390 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 21:04:05.394 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+11-04-2022 21:05:05.404 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 21:06:04.568 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 21:06:05.416 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:07:05.423 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 21:08:05.435 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:09:05.441 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 21:10:05.449 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 21:11:05.452 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 21:12:05.459 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 21:13:05.460 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 21:14:05.473 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 21:15:05.485 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 21:16:05.497 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:17:05.504 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 21:18:05.520 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+11-04-2022 21:19:05.525 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 21:20:05.533 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 21:21:04.575 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 21:21:05.547 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 21:22:05.551 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 21:23:05.559 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 21:24:05.561 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 21:25:05.563 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 21:26:05.574 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 21:27:05.577 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 21:28:05.581 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+11-04-2022 21:29:05.583 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 21:30:05.598 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 21:31:05.612 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 21:32:05.619 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 21:33:05.632 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:34:05.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 2ms
+11-04-2022 21:35:05.638 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 21:36:04.583 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 21:36:05.644 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 21:37:05.653 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 21:38:05.657 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 21:39:05.666 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 21:40:05.673 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 6ms
+11-04-2022 21:41:05.681 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 21:42:05.685 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 21:43:05.693 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 21:44:05.702 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 9ms
+11-04-2022 21:45:05.713 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 21:46:05.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 3ms
+11-04-2022 21:47:05.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+11-04-2022 21:48:05.734 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 21:49:05.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:50:05.759 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 13ms
+11-04-2022 21:51:04.595 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 21:51:05.770 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 21:52:05.781 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 21:53:05.794 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 21:54:05.805 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
+11-04-2022 21:55:05.817 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 21:56:05.828 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 21:57:05.842 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 21:58:05.850 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 21:59:05.863 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 22:00:05.876 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 22:01:05.885 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 22:02:05.890 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 22:03:05.898 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 22:04:05.906 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 22:05:05.920 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 14ms
+11-04-2022 22:06:04.602 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 5
+11-04-2022 22:06:05.929 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 22:07:05.930 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 1ms
+11-04-2022 22:08:05.935 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 22:09:05.940 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 4ms
+11-04-2022 22:10:05.941 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 0ms
+11-04-2022 22:11:05.953 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 12ms
+11-04-2022 22:12:05.962 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 22:13:05.971 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 8ms
+11-04-2022 22:14:05.982 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 11ms
+11-04-2022 22:15:05.989 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 7ms
+11-04-2022 22:16:05.994 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 5ms
+11-04-2022 22:17:06.010 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 15ms
+11-04-2022 22:18:06.020 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry.run - Running the evict task with compensationTime 10ms
